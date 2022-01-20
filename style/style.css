@@ -16,7 +16,7 @@ html {
     height: auto;
 }
 
-header > img {
+header img {
     height: 40px;
 }
 
@@ -27,5 +27,83 @@ nav {
 nav a {
     text-decoration: none;
     color: #302E50;
-    padding: .8em;
+    padding: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color: rgb(119, 89, 255);
+}
+
+.sec::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    height: auto;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.mid {
+    width: calc(30% - 2rem);
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    height: auto;
+    padding-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #302E50;
+    padding: 2em;
+    
+}
+
+footer a:hover {
+    text-decoration: underline; 
+    color: rgb(255, 89, 89);
 }
