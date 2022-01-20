@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    background: rgb(226, 225, 225)
+}
+
+.Container {
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+}
+
+header > img {
+    height: 40px;
+}
+
+nav {
+    margin: 40px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #302E50;
+    padding: .8em;
+}
